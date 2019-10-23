@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dia4</string>
+    <string name="button_1">Button_1</string>
+    <string name="button_2">button_2</string>
+    <string name="button_3">Button_3</string>
+    <string name="button_4">Button_4</string>
+    <string name="button_5">button_5</string>
+    <string name="button_6">Button_6</string>
+    <string name="button_7">Button_7</string>
+    <string name="button_8">Button_8</string>
+    <string name="button_9">Button_9</string>
+    <string name="button_10">Button_10</string>
+    <string name="button_11">Button_11</string>
+    <string name="button_12">Button_12</string>
+    <string name="button_13">Button_13</string>
+    <string name="button_14">Button_14</string>
+    <string name="my_text_view">My Text View</string>
+    <string name="my_edit_text">My Edit Text</string>
+</resources>

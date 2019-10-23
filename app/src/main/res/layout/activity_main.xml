@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:padding="5dp">
+
+
+
+      <Button
+          android:onClick="goToMyTextViewActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="My Text View"
+          android:id="@+id/btn_1"/>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="My Image View"
+          android:onClick="goToMyImageViewActivity"/>
+      <Button
+          android:onClick="goToEditTextViewActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Edit Text"
+          android:id="@+id/btn_3"/>
+      <Button
+          android:onClick="goToAutoCompleteTextViewActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Auto Complete Text"
+          android:id="@+id/btn_4"/>
+      <Button
+          android:onClick="goToButtonViewActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="My Button Activity"
+          android:id="@+id/btn_5"/>
+      <Button
+          android:onClick="goToImageButtonViewActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Image Button"
+          android:id="@+id/btn_6"/>
+      <Button
+          android:onClick="goToCheckBoxActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Check Box"
+          android:id="@+id/btn_7"/>
+      <Button
+          android:onClick="goToToggleButtonActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Toggle Button"
+          android:id="@+id/btn_8"/>
+      <Button
+          android:onClick="goToRadioButtonActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Radio Button"
+          android:id="@+id/btn_9"/>
+      <Button
+          android:onClick="goToMyRadioGroupButtonActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Radio Group"
+          android:id="@+id/btn_10"/>
+      <Button
+          android:onClick="goToMyProgressBarActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress Bar"
+          android:id="@+id/btn_11"/>
+      <Button
+          android:onClick="goToMySpinnerActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Spinner"
+          android:id="@+id/btn_12"/>
+      <Button
+          android:onClick="goToMyTimePickerActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Time Picker"
+          android:id="@+id/btn_13"/>
+      <Button
+          android:onClick="goToMyDatePickerActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Date Picker"
+          android:id="@+id/btn_14"/>
+      <Button
+          android:onClick="goToMyDateAndTimePickerDialogActivity"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Date and Time"
+          android:id="@+id/btn_15"/>
+
+
+
+
+  </LinearLayout>
+
+
+</ScrollView>
